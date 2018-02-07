@@ -1,0 +1,130 @@
+#movie-key{
+	position: fixed;
+	margin-left: 45px;
+	margin-top: 30px;
+	width: 1000px;
+	height: 450px;
+	z-index: 1;
+/*	background-color: dimgray;*/
+}
+
+#movie-key #gap-label{
+	height: 100px;
+	width: 118px;
+	margin-top: 10px;
+	padding-top: 13px;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+	font-size: 4em;
+	position: relative;
+	float: left;
+	display: inline-block;
+	margin-bottom: 0px;
+	text-align: center;
+	color: #FFFFFF;
+	border: solid 2px #2549AF;
+}
+
+
+#movie-key #movie-title{
+	position: relative;
+	clear: left;
+	color: white;
+	font-size: 1.9em;
+	font-family: 'Unica One', sans-serif;
+	font-weight: 400;
+	padding-bottom: -10px;
+
+}
+
+#gap-cluster{
+	float: left;
+	display: inline-block;
+	width: 130px;
+	margin-left: -55px;
+}
+
+h2{													
+	font-family: 'Quicksand', sans-serif;	/*label underneath age gap*/
+	font-weight: 300;
+	font-size: 0.75em;
+	letter-spacing: .85px;
+	color: #ffffff;
+	clear: left;
+	display: inline-block;
+	position: relative;
+}
+
+h3{													
+	font-family: 'Quicksand', sans-serif;	/*label underneath age gap*/
+	font-weight: 400;
+	font-size: 0.95em;
+	letter-spacing: .5px;
+	color: #717D99;
+	float: left;
+	display: inline-block;
+	position: relative;
+	width: 340px;
+	margin-left: 40px;
+	margin-top:  10px;
+}
+
+
+#movie-key #movie-time{
+	position: relative;
+	clear: left;
+	font-size: 1.6em;
+	font-family: sans-serif;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 300;
+	color: dimgray;
+}
+
+#labelblock{
+	width: 100%;
+	position: fixed;
+	top: 580px;
+}
+
+#labelblock #label{
+/*	background-color: dimgray;*/
+	height:40px;
+	width:60px;
+	float: left;
+	position: relative;
+	padding-left: 45px;
+	visibility: visible;
+	-webkit-transition: all 1.5s;
+    -moz-transition: all 1.5s;
+    -ms-transition: all 1.5s;
+    transition: all 1.5s;
+}
+
+#labelblock #spacer{
+/*	background-color: dimgray;*/
+	height:40px;
+	width:60px;
+	float: left;
+	position: relative;
+	padding-right: 1180px;
+/*	padding-right: 79.2%;*/
+}
+
+.fader{
+	display: none;
+}
+
+#moviepic{
+	display: inline-block;
+	position: relative;
+	float: left;
+	top: 10px;
+	left: 4px;
+	z-index: 0;
+	opacity: 1.0;
+	width: 500px;
+	-webkit-transition: opacity .05s;
+    /*-moz-transition: all 1s;*/
+    /*-ms-transition: all 1s;*/
+    /*transition: all 1s;*/
+}
